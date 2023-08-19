@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5056384240148998813
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2562327276652208803}
+  - component: {fileID: 7485325455253439288}
+  - component: {fileID: 1421365584496786368}
+  m_Layer: 0
+  m_Name: AdSpawner
+  m_TagString: adSpawnerScript
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2562327276652208803
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5056384240148998813}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.57, y: -0.76, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7485325455253439288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5056384240148998813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2435a6252c1de344998d43e112abdeb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  adAmounts: 32000000
+  WaveTwo: 20
+  WaveThree: 10
+  WaveOneSpeed: 1
+  WaveTwoSpeed: 0.5
+  WaveThreeSpeed: 0.3
+  HealthScript: {fileID: 0}
+  Ads:
+  - {fileID: 2570044019811299187, guid: fa0ad0420b005fa4994d8ebb55d6ac1b, type: 3}
+--- !u!114 &1421365584496786368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5056384240148998813}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f8a3ed3e8058b48a302df5a242ce8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Batteries: []
+  FullBatt: {fileID: 0}
+  EmptyBatt: {fileID: 0}
+  Animator: {fileID: 0}
+  Animator1: {fileID: 0}
+  Animator2: {fileID: 0}
+  Animator3: {fileID: 0}
+  Animator4: {fileID: 0}
+  Animator5: {fileID: 0}
