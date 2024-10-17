@@ -1,3 +1,8 @@
-# PopUpPurging
+# Popup Purging
 
-Game
+Malware has invaded your computer
+
+Multiple types of enemies
+Different types of levels
+
+Purge those popups rahhhh
