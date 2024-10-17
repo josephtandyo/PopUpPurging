@@ -1,8 +1,10 @@
 # Popup Purging
 
-Malware has invaded your computer
+Adware has invaded your computer.. get rid of them before it's too late
 
 Multiple types of enemies
+
 Different types of levels
 
-Purge those popups rahhhh
+
+## Purge those popups rahhh!
